@@ -4,7 +4,7 @@ import numpy as np
 image = cv2.imread('togrey2.jpg')
 
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
+#Hello
 R = image[:, :, 0].astype(np.float32)
 G = image[:, :, 1].astype(np.float32)
 B = image[:, :, 2].astype(np.float32)
