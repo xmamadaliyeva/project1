@@ -10,7 +10,7 @@ G = image[:, :, 1].astype(np.float32)
 B = image[:, :, 2].astype(np.float32)
 
 sum_rgb = R + G + B
-
+#5-yuklash
 sum_rgb[sum_rgb == 0] = 1e-6
 
 r = R / sum_rgb
