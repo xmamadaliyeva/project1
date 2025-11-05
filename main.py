@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 image = cv2.imread('togrey2.jpg')
-
+#clonedan ozgartirish kiritish
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 #Hello
 R = image[:, :, 0].astype(np.float32)
